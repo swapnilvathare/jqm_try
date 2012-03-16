@@ -19,7 +19,7 @@
 
 	<div data-role="content">	
 		<ul data-role="listview" data-inset="true" data-filter="true">
-            <li><a href="#formPage">Acura</a></li>
+            <li><a href="#formPage" data-transition="slide">Acura</a></li>
             <li><a href="#">Audi</a></li>
             <li><a href="#">BMW</a></li>
             <li><a href="#">Cadillac</a></li>
@@ -35,7 +35,7 @@
 <div data-role="page" id="formPage">
 
 	<div data-role="header" data-position="inline">
-        <a href="#index" data-icon="delete">Cancel</a>
+        <a href="#index" data-rel="back" data-icon="delete">Cancel</a>
         <h1>Home</h1>
         <a href="index.html" data-icon="check">Save</a>
     </div><!-- /header -->
